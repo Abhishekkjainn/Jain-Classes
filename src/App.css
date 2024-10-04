@@ -1,42 +1,93 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans';
+  background-color: white;
+}
+.header{
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.441);
+  backdrop-filter: blur(10px);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+/*Page1*/
+.page1{
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.banner1{
+  margin-top: 40px;
+  width: 95%;
+  height: 90vh;
+  border-radius: 25px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.firstbanner{
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bannertag{
+  padding: 12px;
+  border: 2px solid white;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannertagdiv{
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 20px;
+}
+.tag{
+  width: 25px;
+  height: 25px;
+  border-radius: 40px;
+  background-color: white;
+}
+.name{
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  margin-left: 12px;
+}
+.banner1heading{
+  width: 60%;
+  font-size: 72px;
+  font-weight: 600;
+  color: white;
+}
+.banner1subhead{
+  width: 60%;
+  height: auto;
+  margin-top: 12px;
+  color: rgb(215, 213, 255);
+  font-size: 16px;
+  font-weight: 400;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.secondbanner{
+  width: 50%;
+  height: 90%;
+  background-color: aliceblue;
 }
